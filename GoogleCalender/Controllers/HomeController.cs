@@ -1,10 +1,12 @@
-﻿using Google.Apis.Auth.OAuth2;
+﻿using Elfie.Serialization;
+using Google.Apis.Auth.OAuth2;
 using Google.Apis.Calendar.v3;
 using Google.Apis.Calendar.v3.Data;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
 using GoogleCalender.Models;
 using Microsoft.AspNetCore.Mvc;
+using NuGet.Common;
 using System.Data;
 using System.Diagnostics;
 using System.Globalization;
@@ -96,7 +98,9 @@ namespace GoogleCalender.Controllers
         private List<CalenderModel> CalenderEvents()
         {
             List<CalenderModel> calendars = new();
-
+            EventsResource.ListRequest request = Service.Events.List(CalendarId);
+            request.TimeMin= DateTime.Now;
+            request.OrderBy = EventsResource.ListRequest.OrderByEnum.StartTime;
             Events events = Service.Events.List(CalendarId).Execute();
             if (events.Items is not null && events.Items.Count > 0)
             {

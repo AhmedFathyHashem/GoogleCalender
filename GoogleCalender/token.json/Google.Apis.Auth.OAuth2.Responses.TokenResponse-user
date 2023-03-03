@@ -1,9 +1,1 @@
-{
-  "access_token": "ya29.a0AVvZVspwZ3aXviDqjQ2MR-t7Qul1FZGYl8_FHH12Xr_fB_qmizq1oKrFifiR668--ghhHTF53s9XJ--kd58TPJadNCUlpHO0Zt2s1-l4xARdNaiNpe6EhHEV5LsgS_aUx7bAjj16V6X2r0Ozigu0_S1r4rjpaCgYKAdkSARISFQGbdwaIYCeag66u6-B6S1hlV6h4og0163",
-  "token_type": "Bearer",
-  "expires_in": 3599,
-  "refresh_token": "1//09WQRtPPPyTWgCgYIARAAGAkSNwF-L9IrQvZDXpdMQhr-yBqk8-actmsMjAoBij80Bbn6WyrcN3aFqIp9FEuCi3TtegB57C-q79w",
-  "scope": "https://www.googleapis.com/auth/calendar.settings.readonly https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.events",
-  "Issued": "2023-03-03T18:33:20.857+02:00",
-  "IssuedUtc": "2023-03-03T16:33:20.857Z"
-}
+{"access_token":"ya29.a0AVvZVsoL79QkQ0fI4QZGbHE9JGISg6OonCdDDdlIQfEf8-b1DOXTXb4d90TJecCPynoZqSW0lMxfbI6YLHQ7fVAsIBy_WXcp6zTH5U7AsAjheKsb-Hdl1QWK3GJDyPqobH1aP4uCjydcxOdB0pJB4ztyCWgyRZwaCgYKAesSARISFQGbdwaIDvz1O8-aejdA14Q3N1GIYg0166","token_type":"Bearer","expires_in":3599,"refresh_token":"1//09WQRtPPPyTWgCgYIARAAGAkSNwF-L9IrQvZDXpdMQhr-yBqk8-actmsMjAoBij80Bbn6WyrcN3aFqIp9FEuCi3TtegB57C-q79w","scope":"https://www.googleapis.com/auth/calendar.events https://www.googleapis.com/auth/calendar.settings.readonly https://www.googleapis.com/auth/calendar","Issued":"2023-03-03T19:36:51.341+02:00","IssuedUtc":"2023-03-03T17:36:51.341Z"}
