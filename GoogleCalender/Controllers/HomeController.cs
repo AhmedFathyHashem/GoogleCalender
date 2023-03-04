@@ -34,7 +34,7 @@ namespace GoogleCalender.Controllers
                                 CancellationToken.None,
                                 new FileDataStore(CredPath, true)).Result;
             }
-            Service = new CalendarService(new BaseClientService.Initializer()
+            Service = new (new BaseClientService.Initializer()
             {
                 HttpClientInitializer = credential,
                 ApplicationName = ApplicationName
@@ -46,7 +46,7 @@ namespace GoogleCalender.Controllers
         {
             try
             {
-                ViewBag.EventList = CalenderEvents().OrderBy(C => C.Summary);
+                ViewBag.EventList = CalenderEvents();
                 return View();
             }
             catch (Exception e)
